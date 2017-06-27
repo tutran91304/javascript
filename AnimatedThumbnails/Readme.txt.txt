@@ -1,0 +1,1 @@
+Create animated thumbnails by sliding up a large image x pixels at a time.  Useful to create a catalog of (home) videos.  Use ffmpeg to jump through different frames x seconds and save a frame into a large picture. 

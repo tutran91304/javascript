@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>demo</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js" type="text/javascript"></script>
+	<script src="slideup.js" type="text/javascript"></script>
+    <script type="text/javascript">
+		$(document).ready(function() { 
+			$("images").slideup();
+		});
+    </script>
+	
+	<style>
+
+		.container {
+		  width: 260px;
+		  height: 150px;
+		  margin: 50px 50px 20px 50px;
+		  position: relative;
+		  overflow: hidden;
+		  float:left;
+		  border: 1px;
+		}
+
+		.content {
+		  position:relative;
+		  width: 260px;
+		  height: 3000px;
+		}
+		figure.item {
+			/* To correctly align image, regardless of content height: */
+			vertical-align: top;
+			display: inline-block;
+			/* To horizontally center images and caption */
+			text-align: center;
+			/* The width of the container also implies margin around the images. */
+			box-shadow:         inset 0 0 10px #000000;
+		}
+		img {
+		}
+		.caption {
+			/* Make the caption a block so it occupies its own line. */
+			display: block;
+			font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+			font-size: 12px;
+			font-style: normal;
+			font-variant: normal;
+			font-weight: 500;
+			font-color: blue;
+			line-height: 26.4px;
+		}
+
+	</style>
+
+</head>
+<body>
+	<images>
+<figure class='item'>
+<a href='Zi6_0021.mp4' target='_blank'><img src='Zi6_0021.jpg'/></a>
+<figcaption class='caption'>Zi6 0021</figcaption>
+</figure>
+<figure class='item'>
+<a href='Zi6_0045.mp4' target='_blank'><img src='Zi6_0045.jpg'/></a>
+<figcaption class='caption'>Zi6 0045</figcaption>
+</figure>
+<figure class='item'>
+<a href='Zi6_0046.mp4' target='_blank'><img src='Zi6_0046.jpg'/></a>
+<figcaption class='caption'>Zi6 0046</figcaption>
+</figure>
+<figure class='item'>
+<a href='Zi6_0047.mp4' target='_blank'><img src='Zi6_0047.jpg'/></a>
+<figcaption class='caption'>Zi6 0047</figcaption>
+</figure>
+<figure class='item'>
+<a href='Zi6_0048.mp4' target='_blank'><img src='Zi6_0048.jpg'/></a>
+<figcaption class='caption'>Zi6 0048</figcaption>
+</figure>
+<figure class='item'>
+<a href='Zi6_0100.mp4' target='_blank'><img src='Zi6_0100.jpg'/></a>
+<figcaption class='caption'>Zi6 0100</figcaption>
+</figure>
+<figure class='item'>
+<a href='Zi6_0103.mp4' target='_blank'><img src='Zi6_0103.jpg'/></a>
+<figcaption class='caption'>Zi6 0103</figcaption>
+</figure>
+	</images>
+</body>
+</html>
